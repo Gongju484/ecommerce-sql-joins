@@ -1,12 +1,9 @@
--- =====================================================
--- STEP 1: Create the database and all tables
--- =====================================================
 
 DROP DATABASE IF EXISTS ecommerce_db;
 CREATE DATABASE ecommerce_db;
 USE ecommerce_db;
 
--- Tables that do NOT depend on other tables (create these first)
+-- Tables that do NOT depend on other tables 
 
 CREATE TABLE Categories (
     category_id   INT PRIMARY KEY AUTO_INCREMENT,
